@@ -9,10 +9,8 @@ export const Wishlist = () => {
 
 	return (
 		!clicked ? (
-
 			isHover ? (
-
-				<button onClick={() => setClicked(!clicked)} className='wishlistHovered' onMouseEnter={() => setIsHover(true)}
+				<button onClick={() => { setClicked(!clicked) }} className='wishlistHovered' onMouseEnter={() => setIsHover(true)}
 					onMouseLeave={() => setIsHover(false)}>
 					<Icon name="heartDefault" color="#F3151B" />
 				</button>

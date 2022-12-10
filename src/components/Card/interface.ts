@@ -5,4 +5,5 @@ export interface ICard {
 	oldPrice: number;
 	productName: string;
 	image: string;
+	onClick: () => void;
 }

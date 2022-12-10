@@ -1,9 +1,12 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Icon from '../Icon/index.tsx';
 import { IButton } from './interface';
 import './style.css';
 
 export const Button = (props: IButton) => {
+
+
+
 	return (
 		props.isClicked ? (
 

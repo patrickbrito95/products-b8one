@@ -32,7 +32,7 @@ export const Card = (props: ICard) => {
 					<span>em até</span><span style={{ color: "#1C1C1C", marginLeft: "2px", marginRight: "2px" }}>{props.dividedBy}x de R$ {normalizeNumbers(props.value / props.dividedBy)}</span><span>sem juros</span>
 				</div>
 			</div>
-			<Button isClicked={clicked} label="ADICIONAR" onClick={() => setClicked(!clicked)} />
+			<Button isClicked={clicked} onClick={props.onClick} label={clicked ? "ADICIONADO" : "ADICIONAR"} onClick={() => setClicked(!clicked)} />
 		</div >
 	)
 }
