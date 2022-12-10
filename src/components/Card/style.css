@@ -1,0 +1,83 @@
+.wrapperCard {
+	padding: 32px;
+	width: 240px;
+	max-height: 568px;
+	max-width: 240px;
+	background: #FFFFFF;
+	box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.08);
+	border-radius: 8px;
+	margin: 10px;
+	position: relative;
+}
+
+.wrapperImage {
+	margin-bottom: 32px;
+}
+
+.nameProduct {
+	display: flex;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 20px;
+	color: #1C1C1C;
+	height: 60px;
+	text-align: left;
+}
+
+
+.wrapperOffer {
+	margin-bottom: 32px;
+	margin-top: 34px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+}
+
+.oldPrice {
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 20px;
+	letter-spacing: -0.005em;
+	text-decoration-line: line-through;
+	color: #B5B5B6;
+	text-align: start;
+}
+
+.currentPrice {
+	font-style: normal;
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 24px;
+	letter-spacing: -0.005em;
+	color: #DA4B4F;
+	text-align: start;
+	padding-bottom: 4px;
+	padding-top: 4px;
+}
+
+.quotes {
+	font-style: normal;
+	font-weight: 500;
+	font-size: 12px;
+	line-height: 16px;
+	letter-spacing: -0.005em;
+	text-align: start;
+	color: #737375;
+}
+
+.quotesBold {
+	font-style: normal;
+	font-weight: 500;
+	font-size: 12px;
+	line-height: 16px;
+	letter-spacing: -0.005em;
+	text-align: start;
+}
+
+.wishlistButton {
+	display: block;
+	position: absolute;
+	right: 32px;
+	top: 32px;
+}

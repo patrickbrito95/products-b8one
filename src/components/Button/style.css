@@ -8,6 +8,7 @@
 	cursor: pointer;
 	letter-spacing: -0.005em;
 	text-transform: uppercase;
+	width: 100%;
 }
 
 .buttonDefault:hover {
@@ -17,19 +18,22 @@
 
 .buttonClicked {
 	background-color: #A3F9B9;
-	padding: 12px 24px;
+	padding: 12px 20px;
 	color: #000000;
 	font-weight: bold;
 	border: none;
 	border-radius: 5px;
 	cursor: pointer;
 	display: flex;
+	justify-content: center;
 	letter-spacing: -0.005em;
 	text-transform: uppercase;
+	width: 100%;
 }
 
 .buttonClicked:hover {
 	background-color: #1E9631;
+	color: #ffffff;
 }
 
 

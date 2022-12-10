@@ -1,0 +1,31 @@
+.wishlistDefault {
+	background-color: #F2F3F6;
+	border: none;
+	border-radius: 50%;
+	height: 48px;
+	width: 48px;
+	padding-top: 7px;
+
+}
+
+.wishlistHovered {
+	background-color: #FFCAE0;
+	border: none;
+	border-radius: 50%;
+	height: 48px;
+	width: 48px;
+	padding-top: 7px;
+}
+
+.wishlistClicked {
+	background-color: #DA4B4F;
+	border: none;
+	border-radius: 50%;
+	height: 48px;
+	width: 48px;
+	padding-top: 7px;
+}
+
+.wishlistClicked:hover {
+	background-color: #C22539;
+}
