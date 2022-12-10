@@ -1,0 +1,38 @@
+.buttonDefault {
+	background-color: #40B25C;
+	padding: 12px 24px;
+	color: #FFFFFF;
+	font-weight: bold;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	letter-spacing: -0.005em;
+	text-transform: uppercase;
+}
+
+.buttonDefault:hover {
+	background-color: #1E9631;
+}
+
+
+.buttonClicked {
+	background-color: #A3F9B9;
+	padding: 12px 24px;
+	color: #000000;
+	font-weight: bold;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	display: flex;
+	letter-spacing: -0.005em;
+	text-transform: uppercase;
+}
+
+.buttonClicked:hover {
+	background-color: #1E9631;
+}
+
+
+.wrapperIcon {
+	margin-right: 10px;
+}
